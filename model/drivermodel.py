@@ -192,6 +192,6 @@ class DriverModel:
         }
 
 # 创建车手模型实例（例如分析汉密尔顿2021-2023年的数据）
-hamilton = DriverModel("HAM", [2021, 2022, 2023])
+hamilton = DriverModel("HAM", [2021])
 # 获取完整分析结果
 profile = hamilton.get_complete_profile()
