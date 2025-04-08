@@ -2,26 +2,13 @@ import fastf1
 import pandas as pd
 import numpy as np
 from typing import Dict, List, Tuple
-import os
-from pathlib import Path
-
-# 获取项目根目录（假设当前文件在 model 目录下）
-PROJECT_ROOT = Path(__file__).parent.parent
-CACHE_DIR = os.path.join(PROJECT_ROOT, 'cache')
-
-# Configure FastF1
-fastf1.set_log_level('WARNING')
-fastf1.Cache.enable_cache(CACHE_DIR)
+from ..data.datacalling import load_driver_data
 
 class DriverModel:
     def __init__(self, driver_name: str, seasons: List[int]):
         self.driver_name = driver_name
         self.seasons = seasons
-        self.sessions_data = {}
-        # 使用同样的缓存目录
-        self.cache_dir = CACHE_DIR
-        os.makedirs(self.cache_dir, exist_ok=True)
-        self._load_historical_data()
+        self.sessions_data = load_driver_data(driver_name, seasons)
 
     def _load_historical_data(self):
         """加载历史数据"""
@@ -190,8 +177,8 @@ class DriverModel:
             'wet_performance': self.analyze_wet_performance(),
             'stability': self.analyze_stability()
         }
+#w1, w2,w3,w4,w5
+#Ham_speed = w1 * + w2 =
 
-# 创建车手模型实例（例如分析汉密尔顿2021-2023年的数据）
-hamilton = DriverModel("HAM", [2021, 2022, 2023])
-# 获取完整分析结果
+hamilton = DriverModel("HAM", [2021,2022,2023,2024])
 profile = hamilton.get_complete_profile()
