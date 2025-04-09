@@ -96,7 +96,7 @@ def save_driver_data(
     circuits = [circuits] if isinstance(circuits, str) else circuits
 
     base_path = Path(__file__).parent
-    output_dir = base_path / 'data'
+    output_dir = base_path / 'rawdata'
     output_dir.mkdir(parents=True, exist_ok=True)
 
     # 遍历每个赛季和赛道
