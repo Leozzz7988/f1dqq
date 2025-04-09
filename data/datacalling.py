@@ -21,9 +21,9 @@ def load_f1_data(
     加载F1数据，支持多个维度的筛选
 
     Args:
-        drivers: 车手代号或车手代号列表（如 'HAM' 或 ['HAM', 'VER']）
+        drivers: 车手代号（如汉密尔顿为 44）
         seasons: 赛季或赛季列表（如 2023 或 [2021, 2022, 2023]）
-        circuits: 赛道名称列表（如 ['Monza', 'Spa']），默认为所有赛道
+        circuits: 赛道名称列表（如 ['Italian Grand Prix']），默认为所有赛道
         data_columns: 需要获取的数据列名（如 ['LapTime', 'Speed', 'Position']）
 
     Returns:
