@@ -140,9 +140,9 @@ def save_driver_data(
 
 if __name__ == "__main__":
     save_driver_data(
-        drivers='',
-        seasons=[2018, 2019],
+        drivers='12',
+        seasons=[1987],
         circuits=['Italian Grand Prix'],
         data_columns=['Sector1Time', 'Sector2Time', 'Sector3Time', 'LapTime', 'SpeedFL']
     )
-
+    
