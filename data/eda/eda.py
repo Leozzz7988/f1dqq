@@ -11,12 +11,12 @@ plt.rcParams['font.sans-serif'] = ['Arial Unicode MS']
 plt.rcParams['axes.unicode_minus'] = False
 
 # Set output directory
-base_path = Path('.')
+base_path = Path('..')
 output_dir = base_path / 'analysis_result'
 output_dir.mkdir(parents=True, exist_ok=True)
 
 # 1. Load all JSON files
-data_dir = base_path / 'rawdata_1'
+data_dir = base_path / 'lap_time_raw'
 all_data = {}
 
 for file in data_dir.glob('*.json'):
@@ -44,8 +44,8 @@ for file_name, data in all_data.items():
                 
                 # Pre-1995 data format
                 if year < 1995:
-                    if isinstance(data_dict, dict) and 'total_time' in data_dict:
-                        total_time = float(data_dict['total_time'])
+                    if isinstance(data_dict, dict) and 'total_time_raw' in data_dict:
+                        total_time = float(data_dict['total_time_raw'])
                         if total_time > 0:
                             valid_values.append(total_time)
                 

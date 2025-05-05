@@ -1,0 +1,102 @@
+{
+    "Juan Pablo Montoya": {
+        "total_time": 4468.659,
+        "total_time_gap": 0.0,
+        "z_score": -1.3491009665664744
+    },
+    "Fernando Alonso": {
+        "total_time": 4471.138,
+        "total_time_gap": 2.479000000000269,
+        "z_score": -1.2656367052814101
+    },
+    "Giancarlo Fisichella": {
+        "total_time": 4486.634,
+        "total_time_gap": 17.975000000000364,
+        "z_score": -0.7439093180796259
+    },
+    "Kimi Räikkönen": {
+        "total_time": 4491.433999999999,
+        "total_time_gap": 22.774999999999636,
+        "z_score": -0.5823004216826093
+    },
+    "Jarno Trulli": {
+        "total_time": 4502.445,
+        "total_time_gap": 33.78600000000006,
+        "z_score": -0.2115763470517994
+    },
+    "Ralf Schumacher": {
+        "total_time": 4512.584,
+        "total_time_gap": 43.92500000000018,
+        "z_score": 0.12978877806687136
+    },
+    "Antônio Pizzonia": {
+        "total_time": 4513.302,
+        "total_time_gap": 44.64300000000003,
+        "z_score": 0.15396277548625695
+    },
+    "Jenson Button": {
+        "total_time": 4532.294,
+        "total_time_gap": 63.63500000000022,
+        "z_score": 0.7933953088972225
+    },
+    "Felipe Massa": {
+        "total_time": 4544.071999999999,
+        "total_time_gap": 75.41299999999956,
+        "z_score": 1.1899431384314398
+    },
+    "Michael Schumacher": {
+        "total_time": 4564.728999999999,
+        "total_time_gap": 96.06999999999971,
+        "z_score": 1.885433757780128
+    },
+    "Jacques Villeneuve": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Rubens Barrichello": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Christian Klien": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Mark Webber": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "David Coulthard": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Takuma Sato": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Tiago Monteiro": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Robert Doornbos": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Christijan Albers": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Narain Karthikeyan": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    }
+}

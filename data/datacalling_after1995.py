@@ -171,7 +171,7 @@ def save_driver_data(
     circuits = [circuits] if isinstance(circuits, str) else circuits if circuits else None
 
     base_path = Path(__file__).parent
-    output_dir = base_path / 'rawdata_1'
+    output_dir = base_path / 'lap_time_raw'
     output_dir.mkdir(parents=True, exist_ok=True)
 
     # 获取数据

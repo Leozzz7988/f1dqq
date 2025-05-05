@@ -1,0 +1,112 @@
+{
+    "Heinz-Harald Frentzen": {
+        "total_time": 4622.923,
+        "total_time_gap": 0.0,
+        "z_score": -1.4390983054172934
+    },
+    "Ralf Schumacher": {
+        "total_time": 4626.195,
+        "total_time_gap": 3.2719999999999345,
+        "z_score": -1.2482134041761943
+    },
+    "Mika Salo": {
+        "total_time": 4634.855,
+        "total_time_gap": 11.931999999999789,
+        "z_score": -0.7429984760747511
+    },
+    "Rubens Barrichello": {
+        "total_time": 4640.553,
+        "total_time_gap": 17.63000000000011,
+        "z_score": -0.4105833882777264
+    },
+    "David Coulthard": {
+        "total_time": 4641.065,
+        "total_time_gap": 18.141999999999825,
+        "z_score": -0.38071386827913517
+    },
+    "Eddie Irvine": {
+        "total_time": 4650.325,
+        "total_time_gap": 27.402000000000044,
+        "z_score": 0.15950440357069778
+    },
+    "Alessandro Zanardi": {
+        "total_time": 4650.969999999999,
+        "total_time_gap": 28.04699999999957,
+        "z_score": 0.19713299810016632
+    },
+    "Jacques Villeneuve": {
+        "total_time": 4664.719999999999,
+        "total_time_gap": 41.79699999999957,
+        "z_score": 0.9992929590002774
+    },
+    "Jean Alesi": {
+        "total_time": 4665.121,
+        "total_time_gap": 42.19800000000032,
+        "z_score": 1.0226868604054806
+    },
+    "Damon Hill": {
+        "total_time": 4679.182,
+        "total_time_gap": 56.259000000000015,
+        "z_score": 1.8429902211484783
+    },
+    "Olivier Panis": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Johnny Herbert": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Toranosuke Takagi": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Pedro de la Rosa": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Mika Häkkinen": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Jarno Trulli": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Ricardo Zonta": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Luca Badoer": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Alexander Wurz": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Pedro Diniz": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Giancarlo Fisichella": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Marc Gené": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    }
+}

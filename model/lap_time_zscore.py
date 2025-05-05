@@ -13,14 +13,14 @@ def calculate_relative_delta(data: Dict[str, Any], year: int) -> Dict[str, Any]:
     
     if year < 1995:
         # 1995年之前的总时间数据
-        valid_times = [v['total_time'] for v in data.values() if v['total_time'] > 0]
+        valid_times = [v['total_time_raw'] for v in data.values() if v['total_time_raw'] > 0]
         if not valid_times:
             return {}
             
         min_time = min(valid_times)
         for driver, result in data.items():
-            if result['total_time'] > 0:
-                delta = (result['total_time'] - min_time) / min_time
+            if result['total_time_raw'] > 0:
+                delta = (result['total_time_raw'] - min_time) / min_time
                 normalized_data[driver] = {'relative_delta': float(delta)}
     else:
         # 1996年之后的单圈时间数据
@@ -122,8 +122,8 @@ def process_all_files():
     """
     # 修改路径定位方式
     base_path = Path(__file__).parent.parent  # 向上一级到项目根目录
-    input_dir = base_path / 'data' / 'rawdata_1'
-    output_dir = base_path / 'data' / 'preprocessed_data'
+    input_dir = base_path / 'data' / 'lap_time_raw'
+    output_dir = base_path / 'data' / 'lap_time_zscore'
     output_dir.mkdir(parents=True, exist_ok=True)
     
     for file in input_dir.glob('*_Italian_Grand_Prix_*results.json'):

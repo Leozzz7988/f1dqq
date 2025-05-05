@@ -1,0 +1,142 @@
+{
+    "Ayrton Senna": {
+        "total_time": 4695.349,
+        "total_time_gap": 0.0,
+        "z_score": -1.1610497743492563
+    },
+    "Martin Brundle": {
+        "total_time": 4712.399,
+        "total_time_gap": 17.050000000000182,
+        "z_score": -0.7112881371354699
+    },
+    "Michael Schumacher": {
+        "total_time": 4719.722,
+        "total_time_gap": 24.372999999999593,
+        "z_score": -0.5181148544776248
+    },
+    "Gerhard Berger": {
+        "total_time": 4780.839,
+        "total_time_gap": 85.48999999999978,
+        "z_score": 1.0940893673167904
+    },
+    "Riccardo Patrese": {
+        "total_time": 4788.5070000000005,
+        "total_time_gap": 93.15800000000036,
+        "z_score": 1.2963633986455607
+    },
+    "Andrea de Cesaris": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Michele Alboreto": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Pierluigi Martini": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Ukyo Katayama": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Karl Wendlinger": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Jyrki Järvilehto": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Maurício Gugelmin": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Nigel Mansell": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Thierry Boutsen": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Érik Comas": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Gabriele Tarquini": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Olivier Grouillard": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Johnny Herbert": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Emanuele Naspetti": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Jean Alesi": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Ivan Capelli": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Gianni Morbidelli": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Bertrand Gachot": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Mika Häkkinen": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Aguri Suzuki": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Eric van de Poele": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Christian Fittipaldi": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Stefano Modena": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    }
+}

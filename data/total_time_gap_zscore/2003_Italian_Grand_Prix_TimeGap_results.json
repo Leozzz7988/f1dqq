@@ -1,0 +1,102 @@
+{
+    "Michael Schumacher": {
+        "total_time": 4459.838,
+        "total_time_gap": 0.0,
+        "z_score": -1.2316388413608432
+    },
+    "Juan Pablo Montoya": {
+        "total_time": 4465.132,
+        "total_time_gap": 5.293999999999869,
+        "z_score": -0.6681258581475638
+    },
+    "Rubens Barrichello": {
+        "total_time": 4471.673,
+        "total_time_gap": 11.835000000000036,
+        "z_score": 0.028122427307337477
+    },
+    "Kimi Räikkönen": {
+        "total_time": 4472.672,
+        "total_time_gap": 12.833999999999833,
+        "z_score": 0.13445969028995278
+    },
+    "Marc Gené": {
+        "total_time": 4487.728999999999,
+        "total_time_gap": 27.89099999999962,
+        "z_score": 1.7371825819111169
+    },
+    "Jacques Villeneuve": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Mark Webber": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Fernando Alonso": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Nick Heidfeld": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Giancarlo Fisichella": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Zsolt Baumgartner": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Nicolas Kiesa": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Heinz-Harald Frentzen": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "David Coulthard": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Olivier Panis": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Jos Verstappen": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Jenson Button": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Cristiano da Matta": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Justin Wilson": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Jarno Trulli": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    }
+}

@@ -13,7 +13,7 @@ def get_monza_years_by_driver() -> Dict[str, Dict[str, List[int]]]:
     """
     # 使用相对路径
     base_path = Path(__file__).parent.parent
-    data_dir = base_path / 'data' / 'rawdata_1'
+    data_dir = base_path / 'data' / 'lap_time_raw'
 
     # 添加车手的生涯年份限制
     driver_career_limits = {
@@ -52,7 +52,7 @@ def get_monza_years_by_driver() -> Dict[str, Dict[str, List[int]]]:
                 # 检查是否完赛
                 dnf = False
                 if year < 1995:
-                    if isinstance(driver_data, dict) and driver_data.get('total_time', 0) == 0:
+                    if isinstance(driver_data, dict) and driver_data.get('total_time_raw', 0) == 0:
                         dnf = True
                 else:
                     if isinstance(driver_data, dict):

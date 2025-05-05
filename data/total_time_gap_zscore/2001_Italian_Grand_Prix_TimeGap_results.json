@@ -1,0 +1,112 @@
+{
+    "Juan Pablo Montoya": {
+        "total_time": 4618.493,
+        "total_time_gap": 0.0,
+        "z_score": -1.1859559233555794
+    },
+    "Rubens Barrichello": {
+        "total_time": 4623.668000000001,
+        "total_time_gap": 5.175000000000182,
+        "z_score": -1.036816493430816
+    },
+    "Ralf Schumacher": {
+        "total_time": 4635.828,
+        "total_time_gap": 17.335000000000036,
+        "z_score": -0.6863748571245284
+    },
+    "Michael Schumacher": {
+        "total_time": 4643.484,
+        "total_time_gap": 24.990999999999985,
+        "z_score": -0.46573495847642377
+    },
+    "Pedro de la Rosa": {
+        "total_time": 4693.477000000001,
+        "total_time_gap": 74.98400000000038,
+        "z_score": 0.9750239826305318
+    },
+    "Jacques Villeneuve": {
+        "total_time": 4700.962,
+        "total_time_gap": 82.46900000000005,
+        "z_score": 1.190735795768071
+    },
+    "Kimi Räikkönen": {
+        "total_time": 4701.6,
+        "total_time_gap": 83.10699999999997,
+        "z_score": 1.2091224539887444
+    },
+    "Jean Alesi": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Olivier Panis": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Giancarlo Fisichella": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Nick Heidfeld": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Tomáš Enge": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Fernando Alonso": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Enrique Bernoldi": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Alex Yoong": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Heinz-Harald Frentzen": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Jos Verstappen": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Mika Häkkinen": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Eddie Irvine": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "David Coulthard": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Jenson Button": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Jarno Trulli": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    }
+}

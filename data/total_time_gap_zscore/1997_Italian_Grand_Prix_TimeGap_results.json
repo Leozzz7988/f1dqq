@@ -1,0 +1,112 @@
+{
+    "David Coulthard": {
+        "total_time": 4624.609,
+        "total_time_gap": 0.0,
+        "z_score": -0.9144822889100384
+    },
+    "Jean Alesi": {
+        "total_time": 4626.546,
+        "total_time_gap": 1.9369999999998981,
+        "z_score": -0.8317664489268269
+    },
+    "Heinz-Harald Frentzen": {
+        "total_time": 4628.952,
+        "total_time_gap": 4.342999999999847,
+        "z_score": -0.7290228707132942
+    },
+    "Giancarlo Fisichella": {
+        "total_time": 4630.4800000000005,
+        "total_time_gap": 5.871000000000095,
+        "z_score": -0.663772584965037
+    },
+    "Jacques Villeneuve": {
+        "total_time": 4631.025000000001,
+        "total_time_gap": 6.416000000000167,
+        "z_score": -0.6404994136739381
+    },
+    "Michael Schumacher": {
+        "total_time": 4636.09,
+        "total_time_gap": 11.480999999999767,
+        "z_score": -0.4242083813998262
+    },
+    "Gerhard Berger": {
+        "total_time": 4637.08,
+        "total_time_gap": 12.470999999999549,
+        "z_score": -0.3819323454765606
+    },
+    "Eddie Irvine": {
+        "total_time": 4642.2480000000005,
+        "total_time_gap": 17.639000000000124,
+        "z_score": -0.16124289734372288
+    },
+    "Mika Häkkinen": {
+        "total_time": 4673.982,
+        "total_time_gap": 49.37299999999959,
+        "z_score": 1.1938962177968684
+    },
+    "Jarno Trulli": {
+        "total_time": 4687.3150000000005,
+        "total_time_gap": 62.70600000000013,
+        "z_score": 1.76325620463025
+    },
+    "Shinji Nakano": {
+        "total_time": 4687.936000000001,
+        "total_time_gap": 63.327000000000226,
+        "z_score": 1.7897748089821266
+    },
+    "Gianni Morbidelli": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Rubens Barrichello": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Tarso Marques": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Damon Hill": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Ralf Schumacher": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Johnny Herbert": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Mika Salo": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Jan Magnussen": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Jos Verstappen": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Ukyo Katayama": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Pedro Diniz": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    }
+}

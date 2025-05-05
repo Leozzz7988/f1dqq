@@ -1,0 +1,102 @@
+{
+    "Lewis Hamilton": {
+        "total_time": 4532.312,
+        "total_time_gap": 0.0,
+        "z_score": -1.7120679451039957
+    },
+    "Valtteri Bottas": {
+        "total_time": 4536.782999999999,
+        "total_time_gap": 4.470999999999549,
+        "z_score": -1.5544202112578478
+    },
+    "Sebastian Vettel": {
+        "total_time": 4568.629,
+        "total_time_gap": 36.31700000000001,
+        "z_score": -0.43152830070875287
+    },
+    "Daniel Ricciardo": {
+        "total_time": 4572.647,
+        "total_time_gap": 40.335000000000036,
+        "z_score": -0.289853374608576
+    },
+    "Kimi Räikkönen": {
+        "total_time": 4592.394,
+        "total_time_gap": 60.082000000000335,
+        "z_score": 0.40642705488376185
+    },
+    "Esteban Ocon": {
+        "total_time": 4603.84,
+        "total_time_gap": 71.52800000000025,
+        "z_score": 0.8100137159446379
+    },
+    "Lance Stroll": {
+        "total_time": 4606.468,
+        "total_time_gap": 74.15599999999995,
+        "z_score": 0.9026771569081072
+    },
+    "Felipe Massa": {
+        "total_time": 4607.146,
+        "total_time_gap": 74.83399999999983,
+        "z_score": 0.9265834784352109
+    },
+    "Sergio Pérez": {
+        "total_time": 4607.588,
+        "total_time_gap": 75.27599999999984,
+        "z_score": 0.9421684255074555
+    },
+    "Max Verstappen": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Kevin Magnussen": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Daniil Kvyat": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Nico Hülkenberg": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Carlos Sainz": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Romain Grosjean": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Pascal Wehrlein": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Fernando Alonso": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Marcus Ericsson": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Stoffel Vandoorne": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Jolyon Palmer": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    }
+}

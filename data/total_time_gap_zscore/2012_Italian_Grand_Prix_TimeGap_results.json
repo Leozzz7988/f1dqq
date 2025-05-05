@@ -1,0 +1,122 @@
+{
+    "Lewis Hamilton": {
+        "total_time": 4781.221,
+        "total_time_gap": 0.0,
+        "z_score": -1.832182823297343
+    },
+    "Sergio Pérez": {
+        "total_time": 4785.576999999999,
+        "total_time_gap": 4.355999999999767,
+        "z_score": -1.6057792163937472
+    },
+    "Fernando Alonso": {
+        "total_time": 4801.815,
+        "total_time_gap": 20.59400000000005,
+        "z_score": -0.7618072767930013
+    },
+    "Felipe Massa": {
+        "total_time": 4810.888,
+        "total_time_gap": 29.66700000000037,
+        "z_score": -0.29023704597653965
+    },
+    "Kimi Räikkönen": {
+        "total_time": 4812.102,
+        "total_time_gap": 30.881000000000313,
+        "z_score": -0.2271392547045087
+    },
+    "Michael Schumacher": {
+        "total_time": 4812.48,
+        "total_time_gap": 31.259000000000015,
+        "z_score": -0.20749266071702105
+    },
+    "Nico Rosberg": {
+        "total_time": 4814.771,
+        "total_time_gap": 33.55000000000018,
+        "z_score": -0.08841766911550507
+    },
+    "Paul di Resta": {
+        "total_time": 4822.277999999999,
+        "total_time_gap": 41.05699999999979,
+        "z_score": 0.3017595294669778
+    },
+    "Kamui Kobayashi": {
+        "total_time": 4825.119,
+        "total_time_gap": 43.89800000000014,
+        "z_score": 0.44942083507148406
+    },
+    "Bruno Senna": {
+        "total_time": 4829.365,
+        "total_time_gap": 48.14400000000023,
+        "z_score": 0.6701071791745007
+    },
+    "Pastor Maldonado": {
+        "total_time": 4829.902999999999,
+        "total_time_gap": 48.68199999999979,
+        "z_score": 0.6980697917810298
+    },
+    "Daniel Ricciardo": {
+        "total_time": 4831.536999999999,
+        "total_time_gap": 50.3159999999998,
+        "z_score": 0.782997131928068
+    },
+    "Jérôme d'Ambrosio": {
+        "total_time": 4857.081999999999,
+        "total_time_gap": 75.86099999999988,
+        "z_score": 2.110701479575607
+    },
+    "Heikki Kovalainen": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Vitaly Petrov": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Charles Pic": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Timo Glock": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Pedro de la Rosa": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Narain Karthikeyan": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Mark Webber": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Nico Hülkenberg": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Sebastian Vettel": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Jenson Button": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Jean-Éric Vergne": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "Michael Schumacher": {
+        "total_time": 4491.975,
+        "total_time_gap": 0.0,
+        "z_score": -1.7895853492160627
+    },
+    "Kimi Räikkönen": {
+        "total_time": 4500.021000000001,
+        "total_time_gap": 8.046000000000276,
+        "z_score": -1.3783814459415418
+    },
+    "Robert Kubica": {
+        "total_time": 4518.389,
+        "total_time_gap": 26.41399999999976,
+        "z_score": -0.43965496130993215
+    },
+    "Giancarlo Fisichella": {
+        "total_time": 4524.02,
+        "total_time_gap": 32.04500000000007,
+        "z_score": -0.15187355696754126
+    },
+    "Jenson Button": {
+        "total_time": 4524.660000000001,
+        "total_time_gap": 32.6850000000004,
+        "z_score": -0.11916531708488913
+    },
+    "Rubens Barrichello": {
+        "total_time": 4534.384,
+        "total_time_gap": 42.40899999999965,
+        "z_score": 0.3777955026318642
+    },
+    "Jarno Trulli": {
+        "total_time": 4536.637000000001,
+        "total_time_gap": 44.66200000000026,
+        "z_score": 0.49293872834373537
+    },
+    "Nick Heidfeld": {
+        "total_time": 4537.284000000001,
+        "total_time_gap": 45.3090000000002,
+        "z_score": 0.5260047146000837
+    },
+    "Felipe Massa": {
+        "total_time": 4537.97,
+        "total_time_gap": 45.99499999999989,
+        "z_score": 0.5610638592242679
+    },
+    "Mark Webber": {
+        "total_time": 4564.577,
+        "total_time_gap": 72.60199999999986,
+        "z_score": 1.9208578257200166
+    },
+    "Christian Klien": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "David Coulthard": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Scott Speed": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Vitantonio Liuzzi": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Ralf Schumacher": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Takuma Sato": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Christijan Albers": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Tiago Monteiro": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Fernando Alonso": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Pedro de la Rosa": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Sakon Yamamoto": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Nico Rosberg": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    }
+}

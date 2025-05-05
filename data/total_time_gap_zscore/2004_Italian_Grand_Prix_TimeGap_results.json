@@ -1,0 +1,102 @@
+{
+    "Rubens Barrichello": {
+        "total_time": 4518.448,
+        "total_time_gap": 0.0,
+        "z_score": -1.31920833906612
+    },
+    "Michael Schumacher": {
+        "total_time": 4519.795,
+        "total_time_gap": 1.3469999999997526,
+        "z_score": -1.2660194337176562
+    },
+    "Jenson Button": {
+        "total_time": 4528.645,
+        "total_time_gap": 10.197000000000116,
+        "z_score": -0.9165600333212109
+    },
+    "Takuma Sato": {
+        "total_time": 4533.818,
+        "total_time_gap": 15.36999999999989,
+        "z_score": -0.7122941035753738
+    },
+    "Juan Pablo Montoya": {
+        "total_time": 4550.8,
+        "total_time_gap": 32.35199999999986,
+        "z_score": -0.041726924193206824
+    },
+    "David Coulthard": {
+        "total_time": 4551.887000000001,
+        "total_time_gap": 33.439000000000306,
+        "z_score": 0.0011953773018299504
+    },
+    "Antônio Pizzonia": {
+        "total_time": 4552.200000000001,
+        "total_time_gap": 33.75200000000041,
+        "z_score": 0.013554788863877234
+    },
+    "Giancarlo Fisichella": {
+        "total_time": 4553.879,
+        "total_time_gap": 35.430999999999585,
+        "z_score": 0.07985335759442187
+    },
+    "Mark Webber": {
+        "total_time": 4575.209000000001,
+        "total_time_gap": 56.76100000000042,
+        "z_score": 0.9221097429567001
+    },
+    "Jarno Trulli": {
+        "total_time": 4584.764,
+        "total_time_gap": 66.3159999999998,
+        "z_score": 1.2994074345711273
+    },
+    "Ricardo Zonta": {
+        "total_time": 4600.979,
+        "total_time_gap": 82.53099999999995,
+        "z_score": 1.9396881325856106
+    },
+    "Felipe Massa": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Christian Klien": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Nick Heidfeld": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Zsolt Baumgartner": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Fernando Alonso": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Giorgio Pantano": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Gianmaria Bruni": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Kimi Räikkönen": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Olivier Panis": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    }
+}

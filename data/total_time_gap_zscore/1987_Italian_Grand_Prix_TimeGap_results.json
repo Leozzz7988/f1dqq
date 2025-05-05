@@ -1,0 +1,142 @@
+{
+    "Nelson Piquet": {
+        "total_time": 4487.707,
+        "total_time_gap": 0.0,
+        "z_score": -1.3328967208245714
+    },
+    "Ayrton Senna": {
+        "total_time": 4489.513,
+        "total_time_gap": 1.8059999999995853,
+        "z_score": -1.2811151834802064
+    },
+    "Nigel Mansell": {
+        "total_time": 4536.743,
+        "total_time_gap": 49.03600000000006,
+        "z_score": 0.07306090111278754
+    },
+    "Gerhard Berger": {
+        "total_time": 4545.686000000001,
+        "total_time_gap": 57.97900000000027,
+        "z_score": 0.32947412839450063
+    },
+    "Thierry Boutsen": {
+        "total_time": 4569.026000000001,
+        "total_time_gap": 81.31900000000041,
+        "z_score": 0.9986773851042267
+    },
+    "Stefan Johansson": {
+        "total_time": 4576.494000000001,
+        "total_time_gap": 88.78700000000026,
+        "z_score": 1.2127994896932628
+    },
+    "Teo Fabi": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Piercarlo Ghinzani": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Christian Danner": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "René Arnoux": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Satoru Nakajima": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Philippe Streiff": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Ivan Capelli": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Jonathan Palmer": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Alain Prost": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Alessandro Nannini": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Martin Brundle": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Philippe Alliot": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Adrián Campos": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Eddie Cheever": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Franco Forini": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Alex Caffi": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Michele Alboreto": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Derek Warwick": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Andrea de Cesaris": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Riccardo Patrese": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Nicola Larini": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Pascal Fabre": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    }
+}

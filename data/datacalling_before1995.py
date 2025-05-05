@@ -154,12 +154,12 @@ def load_f1_data(
                                     total_seconds = convert_time_to_seconds(time_str)
                             
                             race_data[driver_name] = {
-                                'total_time': total_seconds
+                                'total_time_raw': total_seconds
                             }
                         else:
                             # 未完赛车手只记录状态
                             race_data[driver_name] = {
-                                'total_time': 0.0
+                                'total_time_raw': 0.0
                             }
 
                 if race_data:
@@ -182,7 +182,7 @@ def save_driver_data(
     circuits = [circuits] if isinstance(circuits, str) else circuits if circuits else None
 
     base_path = Path(__file__).parent
-    output_dir = base_path / 'rawdata_1'
+    output_dir = base_path / 'total_time_raw'
     output_dir.mkdir(parents=True, exist_ok=True)
 
     # 获取数据
@@ -212,6 +212,6 @@ if __name__ == "__main__":
     save_driver_data(
         drivers='',
 #        seasons=[1985],
-        seasons=list(range(1986, 1995)),
+        seasons=list(range(1986, 2024)),
         circuits=['Italian Grand Prix']
     )

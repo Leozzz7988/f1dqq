@@ -1,0 +1,172 @@
+{
+    "Nigel Mansell": {
+        "total_time": 4674.319,
+        "total_time_gap": 0.0,
+        "z_score": -1.5092705507275086
+    },
+    "Ayrton Senna": {
+        "total_time": 4690.581,
+        "total_time_gap": 16.261999999999716,
+        "z_score": -0.7739541735406879
+    },
+    "Alain Prost": {
+        "total_time": 4691.148,
+        "total_time_gap": 16.828999999999724,
+        "z_score": -0.7483162208986426
+    },
+    "Gerhard Berger": {
+        "total_time": 4702.0380000000005,
+        "total_time_gap": 27.71900000000005,
+        "z_score": -0.25590474951966974
+    },
+    "Michael Schumacher": {
+        "total_time": 4708.782,
+        "total_time_gap": 34.46299999999974,
+        "z_score": 0.049037671323263164
+    },
+    "Nelson Piquet": {
+        "total_time": 4719.919000000001,
+        "total_time_gap": 45.600000000000364,
+        "z_score": 0.5526177040824701
+    },
+    "Andrea de Cesaris": {
+        "total_time": 4725.455000000001,
+        "total_time_gap": 51.13600000000042,
+        "z_score": 0.8029381729120332
+    },
+    "Ivan Capelli": {
+        "total_time": 4749.338000000001,
+        "total_time_gap": 75.01900000000023,
+        "z_score": 1.8828521463687422
+    },
+    "Gianni Morbidelli": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Emanuele Pirro": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Érik Comas": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Mark Blundell": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Martin Brundle": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Mika Häkkinen": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Maurício Gugelmin": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Nicola Larini": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Olivier Grouillard": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Jyrki Järvilehto": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Stefano Modena": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Jean Alesi": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Riccardo Patrese": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Satoru Nakajima": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Éric Bernard": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Pierluigi Martini": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Roberto Moreno": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Thierry Boutsen": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Michele Alboreto": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Michael Bartels": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Eric van de Poele": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Aguri Suzuki": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Fabrizio Barbazza": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Gabriele Tarquini": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Alex Caffi": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Pedro Chaves": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    }
+}

@@ -18,7 +18,7 @@ def load_preprocessed_data(year):
     """加载预处理后的数据"""
     base_path = Path(__file__).parent
     try:
-        with open(base_path / 'preprocessed_data' / f'{year}.json', 'r', encoding='utf-8') as f:
+        with open(base_path / 'lap_time_zscore' / f'{year}.json', 'r', encoding='utf-8') as f:
             return json.load(f)
     except FileNotFoundError:
         print(f"警告：{year}年的数据文件不存在")
@@ -71,8 +71,8 @@ def extract_driver_data():
                     if driver_full_name.lower() in name.lower():
                         # 检查数据结构并相应处理
                         if isinstance(data, dict):
-                            if 'z_score' in data:  # 直接存储的 z_score（total_time 数据）
-                                driver_data[str(year)] = {'total_time': {'z_score': data['z_score']}}
+                            if 'z_score' in data:  # 直接存储的 z_score（total_time_raw 数据）
+                                driver_data[str(year)] = {'total_time_raw': {'z_score': data['z_score']}}
                             else:  # 按圈数存储的数据
                                 filtered_data = {}
                                 for lap_num, lap_data in data.items():

@@ -1,0 +1,102 @@
+{
+    "Rubens Barrichello": {
+        "total_time": 4579.982,
+        "total_time_gap": 0.0,
+        "z_score": -1.9168054316130803
+    },
+    "Michael Schumacher": {
+        "total_time": 4580.237,
+        "total_time_gap": 0.25500000000010914,
+        "z_score": -1.9079243345783516
+    },
+    "Eddie Irvine": {
+        "total_time": 4632.561,
+        "total_time_gap": 52.57899999999972,
+        "z_score": -0.08559287871585157
+    },
+    "Jarno Trulli": {
+        "total_time": 4638.201,
+        "total_time_gap": 58.21900000000005,
+        "z_score": 0.1108360909933674
+    },
+    "Jenson Button": {
+        "total_time": 4647.752,
+        "total_time_gap": 67.77000000000044,
+        "z_score": 0.4434767097332109
+    },
+    "Olivier Panis": {
+        "total_time": 4648.473,
+        "total_time_gap": 68.49099999999999,
+        "z_score": 0.46858757625098574
+    },
+    "David Coulthard": {
+        "total_time": 4649.0289999999995,
+        "total_time_gap": 69.04699999999957,
+        "z_score": 0.4879518505698222
+    },
+    "Giancarlo Fisichella": {
+        "total_time": 4650.873,
+        "total_time_gap": 70.89099999999962,
+        "z_score": 0.5521743718719124
+    },
+    "Jacques Villeneuve": {
+        "total_time": 4661.05,
+        "total_time_gap": 81.06800000000021,
+        "z_score": 0.9066172131362247
+    },
+    "Nick Heidfeld": {
+        "total_time": 4662.028,
+        "total_time_gap": 82.04600000000028,
+        "z_score": 0.9406788323517598
+    },
+    "Mika Salo": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Takuma Sato": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Alex Yoong": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Juan Pablo Montoya": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Kimi Räikkönen": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Mark Webber": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Felipe Massa": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Pedro de la Rosa": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Allan McNish": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Ralf Schumacher": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    }
+}

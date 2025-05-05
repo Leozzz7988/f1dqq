@@ -1,0 +1,102 @@
+{
+    "Max Verstappen": {
+        "total_time": 4421.143,
+        "total_time_gap": 0.0,
+        "z_score": -1.6495716829582652
+    },
+    "Sergio Pérez": {
+        "total_time": 4427.207,
+        "total_time_gap": 6.064000000000306,
+        "z_score": -1.4410278035551067
+    },
+    "Carlos Sainz": {
+        "total_time": 4432.336,
+        "total_time_gap": 11.193000000000211,
+        "z_score": -1.2646390242908048
+    },
+    "Charles Leclerc": {
+        "total_time": 4432.52,
+        "total_time_gap": 11.377000000000407,
+        "z_score": -1.2583111757073253
+    },
+    "George Russell": {
+        "total_time": 4444.171,
+        "total_time_gap": 23.028000000000247,
+        "z_score": -0.8576276765440595
+    },
+    "Lewis Hamilton": {
+        "total_time": 4463.822,
+        "total_time_gap": 42.67900000000009,
+        "z_score": -0.18182032592545344
+    },
+    "Alexander Albon": {
+        "total_time": 4466.249,
+        "total_time_gap": 45.10599999999977,
+        "z_score": -0.09835462749020056
+    },
+    "Lando Norris": {
+        "total_time": 4466.592,
+        "total_time_gap": 45.448999999999614,
+        "z_score": -0.08655869235905811
+    },
+    "Fernando Alonso": {
+        "total_time": 4467.437,
+        "total_time_gap": 46.29399999999987,
+        "z_score": -0.05749873554907903
+    },
+    "Valtteri Bottas": {
+        "total_time": 4485.199,
+        "total_time_gap": 64.05599999999959,
+        "z_score": 0.5533449956446306
+    },
+    "Liam Lawson": {
+        "total_time": 4491.781,
+        "total_time_gap": 70.63799999999992,
+        "z_score": 0.7797031444295234
+    },
+    "Oscar Piastri": {
+        "total_time": 4494.217,
+        "total_time_gap": 73.07399999999961,
+        "z_score": 0.863478357197664
+    },
+    "Logan Sargeant": {
+        "total_time": 4499.7,
+        "total_time_gap": 78.55699999999979,
+        "z_score": 1.0520413668888737
+    },
+    "Guanyu Zhou": {
+        "total_time": 4501.307,
+        "total_time_gap": 80.16399999999976,
+        "z_score": 1.1073068705499642
+    },
+    "Pierre Gasly": {
+        "total_time": 4503.653,
+        "total_time_gap": 82.51000000000022,
+        "z_score": 1.1879869399892586
+    },
+    "Lance Stroll": {
+        "total_time": 4508.409,
+        "total_time_gap": 87.26599999999962,
+        "z_score": 1.351548069679438
+    },
+    "Nico Hülkenberg": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Kevin Magnussen": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Esteban Ocon": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    },
+    "Yuki Tsunoda": {
+        "total_time": 0.0,
+        "total_time_gap": 0.0,
+        "z_score": 0.0
+    }
+}

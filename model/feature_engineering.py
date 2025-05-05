@@ -3,7 +3,6 @@ import numpy as np
 from pathlib import Path
 from typing import Dict, Any, List, Tuple
 from scipy import stats
-from data.legendarydriverdata import get_driver_full_name  # 添加这行导入语句
 
 def calculate_driver_statistics(driver_data: Dict[str, Any]) -> Dict[str, Any]:
     """计算单个车手的统计特征"""
@@ -23,8 +22,8 @@ def calculate_driver_statistics(driver_data: Dict[str, Any]) -> Dict[str, Any]:
                         if 'relative_delta' in lap_data:
                             all_deltas.append(lap_data['relative_delta'])
             # 处理总时间数据
-            elif 'total_time' in year_data and 'z_score' in year_data['total_time']:
-                all_z_scores.append(year_data['total_time']['z_score'])
+            elif 'total_time_raw' in year_data and 'z_score' in year_data['total_time_raw']:
+                all_z_scores.append(year_data['total_time_raw']['z_score'])
 
     if not all_z_scores and not all_deltas:
         return {}
@@ -159,5 +158,56 @@ def process_legendary_drivers():
     except Exception as e:
         print(f"保存统计特征时出错：{e}")
 
+def process_all_drivers():
+    """处理所有参赛车手的数据并生成统计特征"""
+    base_path = Path(__file__).parent.parent
+    input_dir = base_path / 'data' / 'lap_time_zscore'
+    output_dir = base_path / 'data' / 'lap_time_zscore_feature'
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
+    # 遍历每个年份的数据文件
+    for file in input_dir.glob('*.json'):
+        try:
+            year = int(file.stem)
+            
+            # 读取该年度的数据
+            with open(file, 'r', encoding='utf-8') as f:
+                year_data = json.load(f)
+            
+            # 为每个车手计算统计特征
+            year_statistics = {}
+            for driver_name, driver_data in year_data.items():
+                # 检查是否完成了53圈
+                if isinstance(driver_data, dict) and len(driver_data) >= 53:
+                    # 检查是否所有圈数都有有效的z-score数据
+                    valid_laps = [
+                        lap_data for lap_data in driver_data.values()
+                        if isinstance(lap_data, dict) and 
+                        'z_score' in lap_data and 
+                        lap_data['z_score'] is not None
+                    ]
+                    
+                    if len(valid_laps) >= 53:  # 确保有53圈有效数据
+                        # 将单年数据转换为与原函数兼容的格式
+                        driver_yearly_data = {str(year): driver_data}
+                        
+                        # 计算统计特征
+                        driver_stats = calculate_driver_statistics(driver_yearly_data)
+                        if driver_stats:
+                            year_statistics[driver_name] = driver_stats
+            
+            # 保存该年度的统计结果
+            if year_statistics:  # 只在有数据时保存
+                output_file = output_dir / f'{year}.json'
+                with open(output_file, 'w', encoding='utf-8') as f:
+                    json.dump(year_statistics, f, indent=4, ensure_ascii=False)
+                print(f"成功处理 {year} 年的数据，共 {len(year_statistics)} 位完赛车手")
+            else:
+                print(f"警告：{year} 年没有有效的完赛数据")
+            
+        except Exception as e:
+            print(f"处理 {file.name} 时出错: {e}")
+
 if __name__ == "__main__":
+    process_all_drivers()
     process_legendary_drivers()
