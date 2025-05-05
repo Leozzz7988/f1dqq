@@ -1,0 +1,22 @@
+{
+    "Ayrton Senna": {
+        "relative_delta": 0.0,
+        "z_score": -0.9161052486013029
+    },
+    "Alain Prost": {
+        "relative_delta": 0.001294176547571375,
+        "z_score": -0.7371421836636022
+    },
+    "Gerhard Berger": {
+        "relative_delta": 0.0015827689392499016,
+        "z_score": -0.6972346617498332
+    },
+    "Nigel Mansell": {
+        "relative_delta": 0.012018056050200551,
+        "z_score": 0.7457917695243107
+    },
+    "Riccardo Patrese": {
+        "relative_delta": 0.01822920563554679,
+        "z_score": 1.604690324490428
+    }
+}

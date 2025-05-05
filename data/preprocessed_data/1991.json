@@ -1,0 +1,34 @@
+{
+    "Nigel Mansell": {
+        "relative_delta": 0.0,
+        "z_score": -1.5092705507275088
+    },
+    "Ayrton Senna": {
+        "relative_delta": 0.003479009455708888,
+        "z_score": -0.7739541735406881
+    },
+    "Alain Prost": {
+        "relative_delta": 0.00360031054791077,
+        "z_score": -0.7483162208986428
+    },
+    "Gerhard Berger": {
+        "relative_delta": 0.005930061683851712,
+        "z_score": -0.2559047495196698
+    },
+    "Michael Schumacher": {
+        "relative_delta": 0.007372838695861308,
+        "z_score": 0.04903767132326311
+    },
+    "Nelson Piquet": {
+        "relative_delta": 0.009755431753802075,
+        "z_score": 0.5526177040824702
+    },
+    "Andrea de Cesaris": {
+        "relative_delta": 0.01093977539829875,
+        "z_score": 0.8029381729120332
+    },
+    "Ivan Capelli": {
+        "relative_delta": 0.016049182779352505,
+        "z_score": 1.8828521463687422
+    }
+}

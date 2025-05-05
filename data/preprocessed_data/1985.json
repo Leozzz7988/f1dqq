@@ -1,0 +1,18 @@
+{
+    "Alain Prost": {
+        "relative_delta": 0.0,
+        "z_score": -1.714059318451303
+    },
+    "Nelson Piquet": {
+        "relative_delta": 0.01103441407977137,
+        "z_score": 0.33664802559987883
+    },
+    "Ayrton Senna": {
+        "relative_delta": 0.012905360051852307,
+        "z_score": 0.6843568044740582
+    },
+    "Marc Surer": {
+        "relative_delta": 0.012952160413689635,
+        "z_score": 0.6930544883773663
+    }
+}

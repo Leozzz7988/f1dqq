@@ -1,0 +1,34 @@
+{
+    "Gerhard Berger": {
+        "relative_delta": 0.0,
+        "z_score": -1.4278618924446058
+    },
+    "Michele Alboreto": {
+        "relative_delta": 0.00010773124017122132,
+        "z_score": -1.4115646655596434
+    },
+    "Eddie Cheever": {
+        "relative_delta": 0.0076253116051010865,
+        "z_score": -0.2743298891059324
+    },
+    "Derek Warwick": {
+        "relative_delta": 0.007750211170398971,
+        "z_score": -0.2554354945899344
+    },
+    "Ivan Capelli": {
+        "relative_delta": 0.011271434653920888,
+        "z_score": 0.2772435865420389
+    },
+    "Thierry Boutsen": {
+        "relative_delta": 0.012850062149336896,
+        "z_score": 0.5160531502186959
+    },
+    "Riccardo Patrese": {
+        "relative_delta": 0.016040151561974306,
+        "z_score": 0.9986393606664644
+    },
+    "Maurício Gugelmin": {
+        "relative_delta": 0.019865039796177604,
+        "z_score": 1.577255844272915
+    }
+}

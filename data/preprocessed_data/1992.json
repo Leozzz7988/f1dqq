@@ -1,0 +1,22 @@
+{
+    "Ayrton Senna": {
+        "relative_delta": 0.0,
+        "z_score": -1.1610497743492563
+    },
+    "Martin Brundle": {
+        "relative_delta": 0.0036312529696940913,
+        "z_score": -0.7112881371354698
+    },
+    "Michael Schumacher": {
+        "relative_delta": 0.005190881444595405,
+        "z_score": -0.5181148544776248
+    },
+    "Gerhard Berger": {
+        "relative_delta": 0.018207379259773827,
+        "z_score": 1.0940893673167902
+    },
+    "Riccardo Patrese": {
+        "relative_delta": 0.01984048470092433,
+        "z_score": 1.2963633986455607
+    }
+}

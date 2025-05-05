@@ -1,0 +1,22 @@
+{
+    "Damon Hill": {
+        "relative_delta": 0.0,
+        "z_score": -1.0542180711287015
+    },
+    "Gerhard Berger": {
+        "relative_delta": 0.0010526990092245242,
+        "z_score": -0.8984042369330055
+    },
+    "Mika Häkkinen": {
+        "relative_delta": 0.005474888964810456,
+        "z_score": -0.2438597123503128
+    },
+    "Rubens Barrichello": {
+        "relative_delta": 0.010811838059446535,
+        "z_score": 0.5460816612575862
+    },
+    "Martin Brundle": {
+        "relative_delta": 0.01827276221387082,
+        "z_score": 1.6504003591544332
+    }
+}

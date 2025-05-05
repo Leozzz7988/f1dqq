@@ -1,8 +1,7 @@
 import fastf1
-import pandas as pd
 import numpy as np
-from typing import Dict, List, Tuple
-from ..data.datacalling import load_driver_data
+from typing import Dict, List
+from model.notused.datacalling import load_driver_data
 
 class DriverModel:
     def __init__(self, driver_name: str, seasons: List[int]):

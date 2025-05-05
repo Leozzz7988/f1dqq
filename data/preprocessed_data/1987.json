@@ -1,0 +1,26 @@
+{
+    "Nelson Piquet": {
+        "relative_delta": 0.0,
+        "z_score": -1.3328967208245714
+    },
+    "Ayrton Senna": {
+        "relative_delta": 0.00040243269001286964,
+        "z_score": -1.2811151834802064
+    },
+    "Nigel Mansell": {
+        "relative_delta": 0.01092673830978717,
+        "z_score": 0.07306090111278744
+    },
+    "Gerhard Berger": {
+        "relative_delta": 0.012919515467475988,
+        "z_score": 0.3294741283945006
+    },
+    "Thierry Boutsen": {
+        "relative_delta": 0.018120389766979085,
+        "z_score": 0.9986773851042267
+    },
+    "Stefan Johansson": {
+        "relative_delta": 0.01978449127806255,
+        "z_score": 1.2127994896932626
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "Nelson Piquet": {
+        "relative_delta": 0.0,
+        "z_score": -1.0672319385938305
+    },
+    "Nigel Mansell": {
+        "relative_delta": 0.002107706188159407,
+        "z_score": -0.5824941859133353
+    },
+    "Stefan Johansson": {
+        "relative_delta": 0.004914335297280283,
+        "z_score": 0.06298434169443189
+    },
+    "Keke Rosberg": {
+        "relative_delta": 0.011539841501695665,
+        "z_score": 1.5867417828127341
+    }
+}
