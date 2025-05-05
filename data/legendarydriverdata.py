@@ -8,10 +8,10 @@ def load_driver_years():
         with open(base_path / 'driver_years.json', 'r', encoding='utf-8') as f:  # 修改为正确的文件名
             return json.load(f)
     except FileNotFoundError:
-        print("错误：找不到 monza_years.json 文件")
+        print("错误：找不到 driver_years.json 文件")
         return None
     except json.JSONDecodeError:
-        print("错误：monza_years.json 文件格式不正确")
+        print("错误：driver_years.json 文件格式不正确")
         return None
 
 def load_preprocessed_data(year):
