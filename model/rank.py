@@ -49,8 +49,8 @@ def rank_drivers():
         score = calculate_score(driver_stats, weights)
         driver_scores.append((driver_name, score))
     
-    # 按得分从高到低排序
-    driver_scores.sort(key=lambda x: x[1], reverse=True)
+    # 修改这里：按得分从小到大排序（去掉reverse=True）
+    driver_scores.sort(key=lambda x: x[1])
     
     # 打印排名结果
     print("\n传奇车手模拟比赛排名:")
