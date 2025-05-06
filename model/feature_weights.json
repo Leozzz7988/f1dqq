@@ -1,0 +1,19 @@
+{
+    "w_mean_z_score": 0.5386000281080631,
+    "w_var_z_score": 0.10399364063215684,
+    "w_best_z_score": 0.19086069342057677,
+    "w_worst_z_score": -0.0,
+    "w_z_score_range": -0.00047819976924526423,
+    "w_median_z_score": -0.026991411367461172,
+    "w_z_score_decay_rate": -0.09023545962683267,
+    "w_mean_delta": 0.0,
+    "w_var_delta": -0.0,
+    "w_best_delta": 0.1168280299743578,
+    "w_worst_delta": 0.018169298449308105,
+    "w_delta_range": 0.0,
+    "w_median_delta": 0.12624396634318302,
+    "w_delta_decay_rate": -0.0,
+    "w_outlier_ratio": 0.0031354167878689535,
+    "w_driver_id": 0.02161901183097872,
+    "w_season": -0.10371807673856673
+}
