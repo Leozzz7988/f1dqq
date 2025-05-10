@@ -53,9 +53,9 @@ def rank_drivers():
     driver_scores.sort(key=lambda x: x[1])
     
     # 打印排名结果
-    print("\n传奇车手模拟比赛排名:")
+    print("\nHistorical Legends in Parallel Monza Race:")
     print("-" * 40)
-    print(f"{'排名':<6}{'车手':<20}{'得分':<10}")
+    print(f"{'Ranking':<6}{'Driver':<20}{'Score':<10}")
     print("-" * 40)
     
     for rank, (driver, score) in enumerate(driver_scores, 1):

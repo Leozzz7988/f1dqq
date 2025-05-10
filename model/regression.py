@@ -113,7 +113,7 @@ def train_elastic_net():
     grid_search.fit(X_train, y_train)
 
     # 输出最佳参数
-    print("最佳参数:")
+    print("Optimal hyperparameters:")
     print(f"alpha: {grid_search.best_params_['alpha']}")
     print(f"l1_ratio: {grid_search.best_params_['l1_ratio']}")
 
@@ -122,8 +122,8 @@ def train_elastic_net():
     train_score = best_model.score(X_train, y_train)
     test_score = best_model.score(X_test, y_test)
 
-    print(f"\n训练集 R² 分数: {train_score:.4f}")
-    print(f"测试集 R² 分数: {test_score:.4f}")
+    print(f"\nTraining R²: {train_score:.4f}")
+    print(f"Testing R²: {test_score:.4f}")
 
     # 获取特征重要性并保存为JSON
     feature_names = [
