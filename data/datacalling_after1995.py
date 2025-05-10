@@ -6,25 +6,25 @@ import pandas as pd
 from typing import List, Dict, Optional, Union
 from time import sleep
 
-# 设置缓存目录
+# 设置缓存目录 | Set cache directory
 PROJECT_ROOT = Path(__file__).parent
 CACHE_DIR = os.path.join(PROJECT_ROOT, 'cache')
 os.makedirs(CACHE_DIR, exist_ok=True)
 
 def get_ergast_data(endpoint: str, offset: int = 0) -> Dict:
-    """从 Ergast API 获取数据"""
+    """从 Ergast API 获取数据 | Get data from Ergast API"""
     base_url = 'http://ergast.com/api/f1'
-    # 使用 offset 和 limit 参数进行分页
+    # 使用 offset 和 limit 参数进行分页 | Use offset and limit parameters for pagination
     response = requests.get(f'{base_url}/{endpoint}.json?limit=1000&offset={offset}')
     if response.status_code == 200:
         return response.json()
     return {}
 
 def get_all_laps_data(season: int, round: str) -> List:
-    """获取一场比赛的所有圈速数据"""
+    """获取一场比赛的所有圈速数据 | Get all lap time data for a race"""
     all_laps = []
     offset = 0
-    limit = 100  # 每次获取100圈数据
+    limit = 100  # 每次获取100圈数据 | Get 100 laps of data each time
     
     while True:
         url = f'http://ergast.com/api/f1/{season}/{round}/laps.json?limit={limit}&offset={offset}'
@@ -45,27 +45,27 @@ def get_all_laps_data(season: int, round: str) -> List:
             
         all_laps.extend(laps_data)
         
-        # 检查是否还有更多数据
+        # 检查是否还有更多数据 | Check if there is more data
         total = int(data['MRData'].get('total', '0'))
         if offset + limit >= total:
             break
             
         offset += limit
-        sleep(0.1)  # 避免请求过快
+        sleep(0.1)  # 避免请求过快 | Avoid requesting too frequently
         
     return all_laps
 
 def convert_time_to_seconds(time_str: str) -> float:
-    """将时间字符串转换为秒数"""
+    """将时间字符串转换为秒数 | Convert time string to seconds"""
     if not time_str:
         return 0.0
         
-    # 处理 "1:23.456" 格式
+    # 处理 "1:23.456" 格式 | Handle "1:23.456" format
     parts = time_str.split(':')
     if len(parts) == 2:
         minutes, seconds = parts
         return float(minutes) * 60 + float(seconds)
-    # 处理 "23.456" 格式
+    # 处理 "23.456" 格式 | Handle "23.456" format
     return float(time_str)
 
 def load_f1_data(
@@ -74,15 +74,15 @@ def load_f1_data(
         circuits: Optional[List[str]] = None,
 ) -> Dict:
     """
-    从 Ergast API 加载F1数据
+    从 Ergast API 加载F1数据 | Load F1 data from Ergast API
 
     Args:
-        drivers: 车手名字（如 'Senna' 或 'Hamilton'）
-        seasons: 赛季或赛季列表
-        circuits: 赛道名称列表，默认为所有赛道
+        drivers: 车手名字（如 'Senna' 或 'Hamilton'） | Driver names (e.g., 'Senna' or 'Hamilton')
+        seasons: 赛季或赛季列表 | Season or list of seasons
+        circuits: 赛道名称列表，默认为所有赛道 | List of circuit names, defaults to all circuits
 
     Returns:
-        包含筛选后数据的字典
+        包含筛选后数据的字典 | Dictionary containing filtered data
     """
     drivers = [drivers] if isinstance(drivers, str) else drivers
     seasons = [seasons] if isinstance(seasons, int) else seasons
@@ -166,7 +166,7 @@ def save_driver_data(
         seasons: Union[int, List[int]],
         circuits: Optional[List[str]] = None
 ) -> None:
-    """保存F1数据到JSON文件"""
+    """保存F1数据到JSON文件 | Save F1 data to JSON files"""
     seasons = [seasons] if isinstance(seasons, int) else seasons
     circuits = [circuits] if isinstance(circuits, str) else circuits if circuits else None
 
@@ -193,6 +193,4 @@ if __name__ == "__main__":
         seasons=list(range(1996, 2025)),
         #seasons=[2010],
         circuits=['Italian Grand Prix']
-        
-        
     )
