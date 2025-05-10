@@ -2,24 +2,24 @@ import json
 from pathlib import Path
 
 def load_data():
-    """加载特征权重和传奇车手统计数据 | Load feature weights and legendary driver statistics"""
+    """Load feature weights and legendary driver statistics | 加载特征权重和传奇车手统计数据"""
     base_path = Path(__file__).parent.parent
     
-    # 加载特征权重 | Load feature weights
+    # Load feature weights | 加载特征权重
     with open(base_path / 'model' / 'feature_weights.json', 'r', encoding='utf-8') as f:
         weights = json.load(f)
     
-    # 加载传奇车手统计数据 | Load legendary driver statistics
+    # Load legendary driver statistics | 加载传奇车手统计数据
     with open(base_path / 'data' / 'legendary_drivers_statistics.json', 'r', encoding='utf-8') as f:
         stats = json.load(f)
         
     return weights, stats
 
 def calculate_score(driver_stats, weights):
-    """计算单个车手的得分 | Calculate score for a single driver"""
+    """Calculate score for a single driver | 计算单个车手的得分"""
     score = 0
     
-    # 计算各个特征的加权和 | Calculate weighted sum of features
+    # Calculate weighted sum of features | 计算各个特征的加权和
     feature_mappings = {
         'mean_z_score': 'w_mean_z_score',
         'var_z_score': 'w_var_z_score',
@@ -39,20 +39,20 @@ def calculate_score(driver_stats, weights):
     return score
 
 def rank_drivers():
-    """计算并输出传奇车手排名 | Calculate and output legendary driver rankings"""
-    # 加载数据 | Load data
+    """Calculate and output legendary driver rankings | 计算并输出传奇车手排名"""
+    # Load data | 加载数据
     weights, stats = load_data()
     
-    # 计算每个车手的得分 | Calculate score for each driver
+    # Calculate score for each driver | 计算每个车手的得分
     driver_scores = []
     for driver_name, driver_stats in stats.items():
         score = calculate_score(driver_stats, weights)
         driver_scores.append((driver_name, score))
     
-    # 修改这里：按得分从小到大排序（去掉reverse=True） | Modify here: sort by score from low to high (remove reverse=True)
+    # Modify here: sort by score from low to high (remove reverse=True) | 修改这里：按得分从小到大排序（去掉reverse=True）
     driver_scores.sort(key=lambda x: x[1])
     
-    # 打印排名结果 | Print ranking results
+    # Print ranking results | 打印排名结果
     print("\nHistorical Legends in Parallel Monza Race:")
     print("-" * 40)
     print(f"{'Ranking':<6}{'Driver':<20}{'Score':<10}")

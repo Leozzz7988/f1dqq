@@ -6,15 +6,15 @@ import pandas as pd
 from typing import List, Dict, Optional, Union
 from time import sleep
 
-# 设置缓存目录 | Set cache directory
+# Set cache directory | 设置缓存目录
 PROJECT_ROOT = Path(__file__).parent
 CACHE_DIR = os.path.join(PROJECT_ROOT, 'cache')
 os.makedirs(CACHE_DIR, exist_ok=True)
 
 def get_ergast_data(endpoint: str, offset: int = 0) -> Dict:
-    """从 Ergast API 获取数据 | Get data from Ergast API"""
+    """Get data from Ergast API | 从 Ergast API 获取数据"""
     base_url = 'http://ergast.com/api/f1'
-    # 使用 offset 和 limit 参数进行分页 | Use offset and limit parameters for pagination
+    # Use offset and limit parameters for pagination | 使用 offset 和 limit 参数进行分页
     response = requests.get(f'{base_url}/{endpoint}.json?limit=1000&offset={offset}')
     if response.status_code == 200:
         return response.json()
@@ -74,15 +74,15 @@ def load_f1_data(
         circuits: Optional[List[str]] = None,
 ) -> Dict:
     """
-    从 Ergast API 加载F1数据 | Load F1 data from Ergast API
+    Load F1 data from Ergast API | 从 Ergast API 加载F1数据
 
     Args:
-        drivers: 车手名字（如 'Senna' 或 'Hamilton'） | Driver names (e.g., 'Senna' or 'Hamilton')
-        seasons: 赛季或赛季列表 | Season or list of seasons
-        circuits: 赛道名称列表，默认为所有赛道 | List of circuit names, defaults to all circuits
+        drivers: Driver names (e.g., 'Senna' or 'Hamilton') | 车手名字（如 'Senna' 或 'Hamilton'）
+        seasons: Season or list of seasons | 赛季或赛季列表
+        circuits: List of circuit names, defaults to all circuits | 赛道名称列表，默认为所有赛道
 
     Returns:
-        包含筛选后数据的字典 | Dictionary containing filtered data
+        Dictionary containing filtered data | 包含筛选后数据的字典
     """
     drivers = [drivers] if isinstance(drivers, str) else drivers
     seasons = [seasons] if isinstance(seasons, int) else seasons
@@ -94,12 +94,12 @@ def load_f1_data(
         try:
             schedule_data = get_ergast_data(f'{season}')
             if 'MRData' not in schedule_data or 'RaceTable' not in schedule_data['MRData']:
-                print(f"警告: {season} 赛季数据结构不完整")
+                print(f"Warning: {season} season data structure is incomplete | 警告: {season} 赛季数据结构不完整")
                 continue
                 
             races = schedule_data['MRData']['RaceTable'].get('Races', [])
             if not races:
-                print(f"警告: {season} 赛季没有比赛数据")
+                print(f"Warning: {season} season has no race data | 警告: {season} 赛季没有比赛数据")
                 continue
 
             for race in races:
@@ -121,7 +121,7 @@ def load_f1_data(
                 driver_info_map = {r['Driver']['driverId']: r['Driver'] for r in results if 'Driver' in r}
 
                 # 获取圈速数据
-                print(f"正在获取 {season} 赛季 {circuit_name} 的圈速数据...")
+                print(f"Getting lap time data for {season} season {circuit_name}... | 正在获取 {season} 赛季 {circuit_name} 的圈速数据...")
                 laps_data = get_all_laps_data(season, race["round"])
                 total_laps = len(laps_data)
                 print(f"共获取到 {total_laps} 圈数据")

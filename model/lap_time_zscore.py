@@ -6,8 +6,8 @@ from typing import Dict, Any
 
 def calculate_relative_delta(data: Dict[str, Any], year: int) -> Dict[str, Any]:
     """
-    计算赛季基准归一化（Relative Delta） | Calculate season baseline normalization (Relative Delta)
-    对于每圈，计算与当年最快圈时间的相对差距 | For each lap, calculate the relative difference from the fastest lap time of the year
+    Calculate season baseline normalization (Relative Delta) | 计算赛季基准归一化（Relative Delta）
+    For each lap, calculate the relative difference from the fastest lap time of the year | 对于每圈，计算与当年最快圈时间的相对差距
     """
     normalized_data = {}
     
@@ -51,10 +51,10 @@ def calculate_relative_delta(data: Dict[str, Any], year: int) -> Dict[str, Any]:
 
 def standardize_lap_data(data: Dict[str, Any], year: int) -> Dict[str, Any]:
     """
-    对每圈数据进行标准化处理 | Standardize lap data processing
-    1. 先进行赛季基准归一化 | First perform season baseline normalization
-    2. 再进行圈内Z-score标准化 | Then perform Z-score standardization within laps
-    3. 对每个车手的圈数进行排序 | Sort lap numbers for each driver
+    Standardize lap data processing | 对每圈数据进行标准化处理
+    1. First perform season baseline normalization | 先进行赛季基准归一化
+    2. Then perform Z-score standardization within laps | 再进行圈内Z-score标准化
+    3. Sort lap numbers for each driver | 对每个车手的圈数进行排序
     """
     # 第一步：赛季基准归一化 | Step 1: Season baseline normalization
     normalized_data = calculate_relative_delta(data, year)
@@ -118,7 +118,7 @@ def standardize_lap_data(data: Dict[str, Any], year: int) -> Dict[str, Any]:
 
 def process_all_files():
     """
-    处理所有数据文件 | Process all data files
+    Process all data files | 处理所有数据文件
     """
     # 修改路径定位方式 | Modify path locating method
     base_path = Path(__file__).parent.parent  # 向上一级到项目根目录 | Go up one level to project root directory
@@ -142,7 +142,7 @@ def process_all_files():
             with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump(standardized_data, f, indent=4, ensure_ascii=False)
                 
-            print(f"成功处理 {year} 年的数据 | Successfully processed data for year {year}")
+            print(f"Successfully processed data for year {year} | 成功处理 {year} 年的数据")
             
         except Exception as e:
             print(f"处理文件 {file.name} 时出错: {e} | Error processing file {file.name}: {e}")
