@@ -7,6 +7,10 @@ This project is a performance analysis system for F1 (Formula One) legendary dri
 
 本项目是一个基于F1（一级方程式赛车）历史数据的传奇车手性能分析系统。系统通过分析1985-2024年蒙扎赛道的比赛数据，使用机器学习方法对不同时代的传奇车手进行性能评估和排名。
 
+Link to the full report | 完整报告的链接
+
+https://docs.google.com/document/d/1rvrO-lkVA3T7h1nOe9vtnrE43F8K90zjTDkcutHkOPo/edit?tab=t.0
+
 ## Features | 功能特点
 
 - Data Collection: Automatically retrieve race data for the Monza Grand Prix from 1985-2024 using the Ergast F1 API
